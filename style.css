@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.main {
+    width: 860px;
+}
+.main ul {
+    list-style: none;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.main ul li {
+    background: #fff;
+    width: 200px;
+    border: 1px solid #6459ff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #000;
+    font-size: 20px; 
+    font-family: Verdana;
+    border-radius: 5px;
+}
+
+.main ul ul {
+    display: none;
+    /*filter: drop-shadow(1em 1em 2em #3d3c3c);*/
+    box-shadow: 15px 15px 50px #42372c;
+    margin-top: 0;
+}
+.main ul li:hover ul{
+    display: block;
+}
+.main ul ul li:hover {
+    background: #c2befc;
+}
