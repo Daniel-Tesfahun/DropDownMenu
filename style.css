@@ -30,7 +30,7 @@ body {
 
 .main ul ul {
     display: none;
-    /*filter: drop-shadow(1em 1em 2em #3d3c3c);*/
+    /*filter: drop-shadow(1em 1em 2em #3d3c3c);// We will use this for drop shadow if we want.*/
     box-shadow: 15px 15px 50px #42372c;
     margin-top: 0;
 }
